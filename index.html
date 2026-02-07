@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JAMB Mentor | Official Website</title>
+
+  <style>
+    :root {
+      --bg: #0f1220;
+      --card: #171a2e;
+      --text: #e6e8ff;
+      --muted: #9aa0ff;
+      --accent: #6c7cff;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont,
+        "Segoe UI", Roboto, Ubuntu, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #0f1220, #0b0d18);
+      color: var(--text);
+      min-height: 100vh;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 3rem 1.5rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 0.5rem;
+      color: var(--accent);
+    }
+
+    header p {
+      font-size: 1.1rem;
+      color: var(--muted);
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 1.5rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .card {
+      background: var(--card);
+      border-radius: 16px;
+      padding: 1.5rem;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+    }
+
+    .card h2 {
+      margin-bottom: 0.75rem;
+      color: var(--accent);
+      font-size: 1.4rem;
+    }
+
+    ul {
+      list-style: none;
+      margin-top: 0.5rem;
+    }
+
+    ul li {
+      padding: 0.35rem 0;
+    }
+
+    ul li::before {
+      content: "▶";
+      color: var(--accent);
+      margin-right: 0.5rem;
+      font-size: 0.8rem;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    a:hover {
+      color: #fff;
+      text-decoration: underline;
+    }
+
+    .card a {
+      display: inline-block;
+      margin: 0.4rem 0;
+      padding: 0.5rem 0.8rem;
+      background: rgba(108, 124, 255, 0.15);
+      border-radius: 8px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+
+    footer span {
+      color: var(--accent);
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>JAMB Mentor</h1>
+    <p>
+      We are <strong>JAMB Mentor</strong> — an online learning community dedicated to helping
+      students score <strong>300+</strong> in JAMB by understanding core concepts,
+      practicing past questions, and learning the right strategies.
+    </p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>About Us</h2>
+      <p>
+        We are passionate about education, problem-solving, and understanding how
+        JAMB structures its questions. Our teaching approach focuses on interaction,
+        clarity, and real information from JAMB-approved sources.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>What We Offer</h2>
+      <ul>
+        <li>Evening lessons (8:00 PM – 10:00 PM)</li>
+        <li>Structured roadmap to scoring 300+ in JAMB</li>
+        <li>Discussions with high-scoring JAMB candidates</li>
+        <li>Mathematics and Science lessons</li>
+        <li>Study of recommended texts (e.g. The Lekki Headmaster)</li>
+        <li>JAMB & WAEC syllabus coverage</li>
+        <li>Over 1,000 learning community members</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>How We Teach</h2>
+      <p>
+        We conduct interactive online classes, usually held in the evening
+        from <strong>8:00 PM to 10:30 PM</strong>. This schedule allows students
+        to stay consistent, ask questions freely, and fully engage with lessons.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Our Goals</h2>
+      <p>
+        Our goal is to help students achieve their academic dreams, gain admission
+        into their desired universities, and study their preferred courses.
+        Education empowers understanding, innovation, and real-world problem-solving.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Our Story</h2>
+      <p>
+        We have helped many students achieve their target JAMB scores by providing
+        guidance, mentorship, and consistent support. Our community includes
+        some of the top 300+ JAMB scorers in West Africa.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Contact & Socials</h2>
+      <a href="#">Email Us (Coming Soon)</a><br>
+      <a href="#">Join Our WhatsApp Channel</a><br>
+      <a href="#">Join Our General Classroom</a><br>
+      <a href="#">DM on WhatsApp (Mr. Smile)</a><br>
+      <a href="https://jambcbt.awajis.com/">Take a CBT Practice Test</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built by <span>Bro Knows</span></p>
+    <p>JAMB Mentor • Learning with Purpose</p>
+    <p>© 2026</p>
+  </footer>
+</body>
+</html>
